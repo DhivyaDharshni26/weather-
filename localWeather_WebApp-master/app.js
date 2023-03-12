@@ -39,7 +39,6 @@ window.addEventListener('load', () => {
                         icon
                     } = data.weather[0];
 
-                    // const icn = `http://openweathermap.org/img/wn//${icon}@2x.png`;
 
                     //Set DOM elements from the API
                     temperatureDegree.textContent = feels_like;
