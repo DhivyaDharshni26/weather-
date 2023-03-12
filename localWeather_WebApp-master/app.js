@@ -45,7 +45,7 @@ window.addEventListener('load', () => {
                     temperatureDescription.textContent = description;
                     locationTimezone.textContent = data.name;
                     locationIcon.innerHTML = `<img src="icons/${icon}.png">`;
-                    // locationIcon.textContent = icn;
+                    
                 });
         });
     }
